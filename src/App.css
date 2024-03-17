@@ -1,0 +1,67 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #716D3E;
+}
+
+.App {
+  text-align: center;
+}
+
+.banner-image {
+  height: 250px;
+  width: 960px;
+}
+
+nav {
+  background-color: #D9D9D9;
+  padding: 20px;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #716D3E;
+}
+
+section {
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.banner {
+  background-color: #F4FFF5;
+}
+
+.about-us {
+  background-color: #D9D9D9;
+}
+
+.testimonials {
+  background-color: #F4FFF5;
+}
+
+.contact {
+  background-color: #D9D9D9;
+}
+
+.section-content {
+  display: flex;
+  align-items: center;
+}
+
+.section-image-left {
+  margin-right: 20px; 
+}
+
+.section-image-right {
+  margin-left: 20px; 
+}
