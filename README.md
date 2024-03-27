@@ -7,12 +7,13 @@ Welcome to the Blue Ridge Buildings & Carports website project! This website is 
 
 ## Project Overview
 
-The Blue Ridge Buildings & Carports website is a single-page application built using React.js. It features several sections, including:
+The Blue Ridge Buildings & Carports website is a multi-page application built using React.js. It features several sections, including:
 
 - Banner section showcasing our brand and image.
 - About Us section providing information about our company's history and philosophy.
 - Testimonials section featuring reviews from satisfied customers.
 - Contact Us section with store location, contact information, and a contact form.
+- Product Showcase in a click through carousel.
 
 ## Build Instructions
 
@@ -20,7 +21,7 @@ To run the project locally, follow these steps:
 
 1. Clone the repository to your local machine.
 2. Navigate to the project directory.
-3. Install dependencies using npm or yarn: `npm install` or `yarn install`.
+3. Install dependencies using npm or yarn: `npm install`.
 4. Start the development server: `npm start` or `yarn start`.
 5. Open your browser and visit http://localhost:3000 to view the website.
 
