@@ -9,10 +9,13 @@ const FormContainer = styled.div`
 const Form = styled.form`
   display: flex;
   flex-direction: column;
+  align-items: center;
 `;
 
 const FormGroup = styled.div`
   margin-bottom: 15px;
+  display: flex;
+  flex-direction: column;
 `;
 
 const Label = styled.label`
@@ -25,6 +28,7 @@ const Input = styled.input`
   border: 1px solid #ccc;
   border-radius: 5px;
   font-size: 16px;
+  margin-bottom: 10px;
 `;
 
 const TextArea = styled.textarea`
@@ -32,6 +36,8 @@ const TextArea = styled.textarea`
   border: 1px solid #ccc;
   border-radius: 5px;
   font-size: 16px;
+  resize: vertical; /* Allow vertical resizing */
+  margin-bottom: 10px;
 `;
 
 const Button = styled.button`
@@ -60,9 +66,9 @@ const ContactForm = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // I can andle form submission logic here
+    // Handle form submission logic here
     console.log(formData);
-    // I can also send this data to a backend server for processing
+    // You can also send this data to a backend server for processing
   };
 
   return (
