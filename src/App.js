@@ -1,6 +1,3 @@
-/* dandru3218
-03/10/2024 */
-
 import React, { useState } from 'react';
 import './App.css';
 import Home from './pages/Home';
@@ -30,10 +27,10 @@ function App() {
     <div className="App">
       <nav>
         <ul>
-          <li onClick={() => setCurrentPage('home')}>Home</li>
-          <li onClick={() => setCurrentPage('shop')}>Shop</li>
-          <li onClick={() => setCurrentPage('reviews')}>Reviews</li>
-          <li onClick={() => setCurrentPage('contact')}>Contact</li>
+          <li className={currentPage === 'home' ? 'active' : ''} onClick={() => setCurrentPage('home')}>Home</li>
+          <li className={currentPage === 'shop' ? 'active' : ''} onClick={() => setCurrentPage('shop')}>Shop</li>
+          <li className={currentPage === 'reviews' ? 'active' : ''} onClick={() => setCurrentPage('reviews')}>Reviews</li>
+          <li className={currentPage === 'contact' ? 'active' : ''} onClick={() => setCurrentPage('contact')}>Contact</li>
         </ul>
       </nav>
 
